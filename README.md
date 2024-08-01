@@ -1,7 +1,8 @@
 # WORLD'S_POPULATION_ANALYSIS
 
 
-#Objective
+# Objective
+
 The goal of this project is to analyse the world's population in all the census years and make meaningful insights out of it.
 
 # Tool Used
@@ -9,7 +10,7 @@ The goal of this project is to analyse the world's population in all the census 
 MySQL, MS Excel
 
 
-#Insights
+# Insights
 
 ◾📌𝐂𝐡𝐢𝐧𝐚, 𝐈𝐧𝐝𝐢𝐚 & 𝐔𝐒 𝐚𝐫𝐞 𝟑 𝐦𝐨𝐬𝐭 𝐩𝐨𝐩𝐮𝐥𝐨𝐮𝐬 𝐜𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐰𝐨𝐫𝐥𝐝 𝐒𝐢𝐧𝐜𝐞 𝟏𝟗𝟖𝟎.
 
