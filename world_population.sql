@@ -7,20 +7,6 @@ ALTER TABLE pop_data
 RENAME COLUMN cca2 TO country_code;
 
 
-#Checking for Duplicates
-
-SELECT * FROM
-( 
-SELECT *,
-ROW_NUMBER() OVER(PARTITION BY country ORDER BY country)
-AS row_num 
-FROM pop_data
-)X
-WHERE row_num>1;
-/*The Query Didn't returned any row Therefore there is no 
-Duplicate country in the Dataset*/
-
-
 /*Checking  % Increase In population From 
  Previous Population census */
 WITH CTE1 AS
