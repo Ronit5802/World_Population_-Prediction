@@ -1,6 +1,11 @@
 DESCRIBE pop_data;
 SELECT * FROM pop_data;
 
+/*To Rename the column */
+
+ALTER TABLE pop_data 
+RENAME COLUMN cca2 TO country_code;
+
 /*Checking  % Increase In population From 
  Previous Population census */
 WITH CTE1 AS
